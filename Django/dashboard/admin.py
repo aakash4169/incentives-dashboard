@@ -5,7 +5,9 @@ from .models import *
 
 admin.site.register(Deal)
 admin.site.register(Incentiveprogram)
-admin.site.register(Dealtype)
-admin.site.register(Dealobjective)
-admin.site.register(Programindustryactivity)
-admin.site.register(Programindustrysector)
+admin.site.register(Dealprogram)
+admin.site.register(Programbusinessneeds)
+admin.site.register(Programcategory)
+admin.site.register(Programgeographicfocus)
+admin.site.register(Programindustry)
+admin.site.register(Programtype)
